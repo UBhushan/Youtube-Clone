@@ -1,0 +1,130 @@
+.header{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.986);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(240, 240, 240);
+}
+
+.left-header{
+    display: flex;
+    align-self: center;
+}
+
+.middle-header{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 35px;
+}
+
+.right-header{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.hamburger-menu-image{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.youtube-logo{
+    height: 20px;
+}
+
+.search-bar{
+    flex: 1;
+    height: 36px;
+    width: 0;
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    padding-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(194, 194, 194);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar:focus{
+    border-style: solid;
+    border-color: rgb(255, 4, 4);
+}
+
+.search-bar::placeholder{
+    padding-left: 20px;
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+
+.search-button{
+    height: 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(194, 194, 194);
+    padding-left: 10px;
+    margin-left: -1px;
+    font-size: 16px;
+}
+
+.voice-search-button{
+    border: none;
+    border-radius: 18px;
+    height: 40px;
+    width: 40px;
+    margin-left: 6px;
+}
+
+.search-icon{
+    height: 20px;
+    width: 40px;
+    margin-top: 4px;
+}
+
+.voice-search-icon{
+    height: 20px;
+    width: 20px;
+    margin-top: 4px;
+}
+
+.upload-icon, .youtube-apps-icon, .notifications-icon{
+    height: 24px;
+}
+
+.current-channel-profile-pic{
+    height: 36px;
+    border-radius: 18px;
+}
+
+.notifications-container{
+    position: relative;
+}
+
+.notifications-count{
+    position: absolute;
+    top: -2px;
+    right: -4px;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(204, 10, 10);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
